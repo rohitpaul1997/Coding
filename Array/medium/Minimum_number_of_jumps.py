@@ -19,7 +19,7 @@
 # and from here we will jump to the last. 
 
 
-def minJumps(self, arr, n):
+def minJumps(arr, n):
 
 	pos = 0
     des = 0

@@ -20,7 +20,6 @@
 
 
 def minJumps(arr, n):
-
 	pos = 0
     des = 0
     jump = 0

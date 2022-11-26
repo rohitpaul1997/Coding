@@ -6,7 +6,7 @@
 # N = 5
 # arr[] = {1,2,3,4,5}
 # Output: 6
-# Explanation: Smallest positive missing 
+# Explanation: Smallest positive missing
 # number is 6.
 # Example 2:
 
@@ -14,14 +14,14 @@
 # N = 5
 # arr[] = {0,-10,1,3,-20}
 # Output: 2
-# Explanation: Smallest positive missing 
+# Explanation: Smallest positive missing
 # number is 2.
 
 
-def missingNumber(self,arr,n):
-        #Your code here
-        s = set(arr)
-        x = 1
-        while x in s:
-            x+=1
-        return x 
+def missingNumber(self, arr, n):
+    # Your code here
+    s = set(arr)
+    x = 1
+    while x in s:
+        x += 1
+    return x

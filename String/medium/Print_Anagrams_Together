@@ -1,0 +1,16 @@
+def Anagrams(words, n):
+        dict={}
+        for word in words:  
+            key="".join(sorted(word))
+            if key not  in dict:
+                dict[key]=[word]
+            else:
+                dict[key].append(word)       
+        ans=[]
+        for key,val in dict.items():
+            ans.append(val)
+        return ans
+
+words = ['act','god','cat','dog','tac']   
+
+print(Anagrams(words,len(words)))

@@ -1,13 +1,9 @@
-def minDeletionSize(strs: list[str]) -> int:
-        c=0
-        for col in range(len(strs[0])):
-            for row in range(len(strs)-1):
-                if ord(strs[row][col])>ord(strs[row+1][col]):
-                    # print(strs[row][col],strs[row+1][col])
-                    print(ord(strs[row][col]))
-                    print(ord(strs[row+1][col]))
-                    c+=1
-                    break
-        return c
+matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]]
+target = 71
 
-print(minDeletionSize(["cba","daf","ghi"]))
+for i in matrix:
+    if target in i:
+        print(True)
+
+print(False)        
+
